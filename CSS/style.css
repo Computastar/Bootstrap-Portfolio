@@ -42,3 +42,85 @@ body {
     height: 25vw;
     object-fit: cover;
 }
+
+.contact {
+    text-align: center;
+}
+
+/* send email styling */
+.send-email {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* send email hover styling */
+.send-email:hover {
+    color: black;
+    opacity: 0.5;
+}
+
+/* send email tooltip */
+.send-email .send-email-tooltip {
+    visibility: hidden;
+    width: 120px;
+    margin: 15px;
+    background-color: black;
+    columns: black;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+}
+
+/* shows send email tooltip */
+.send-email:hover .send-email-tooltip {
+    visibility: visible;
+}
+
+/* social icons class styling */
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+}
+
+/* Font awesome styling */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 15%;
+}
+
+/* Font awesome hover styling */
+.fa:hover {
+    opacity: 0.5;
+}
+
+/* Font awesome github styling */
+.fa-github {
+    background-color: #24292f;
+    color: white;
+}
+
+/* Font awesome twitter styling */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Font awesome linkedin styling */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.created-by {
+    text-align: center;
+}
