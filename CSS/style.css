@@ -1,5 +1,5 @@
 body {
-    background-color: brown;
+    background-color: white;
 }
 
 /* Nav bar logo, moved out from html for better flexiblity. */
@@ -9,25 +9,36 @@ body {
 }
 
 .jumbotron {
-    /*background: url("../images/Bio-Pic.png") no-repeat left center;
-    /*background-size: 100% 100%;*/
     background-color: white;
 }
 
-.valueProp {
-    margin-top: 15px;
-    margin-bottom: 15px;
+.col-8 h1 {
+    text-align: justify;
 }
 
-.sideAccent {
-    background: #007bff;
-    width: 15px;
+.sectionHeading {
+    text-align: calc(100% - 100 px);
+
 }
 
-.imageContainer {
+.col-8 p {
     padding: 50px;
 }
 
 .imageContainer img {
     width: 100%;
+}
+
+.cardContainer {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.card img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
 }
