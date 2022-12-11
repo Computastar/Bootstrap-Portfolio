@@ -65,12 +65,13 @@ body {
     visibility: hidden;
     width: 120px;
     margin: 15px;
-    background-color: black;
-    columns: black;
+    background-color: #333;
+    columns: #fff;
     text-align: center;
     padding: 10px 0;
     border-radius: 6px;
     position: absolute;
+    color: white;
 }
 
 /* shows send email tooltip */
@@ -121,6 +122,7 @@ body {
     color: white;
 }
 
+/* Created by text center algined */
 .created-by {
     text-align: center;
 }
