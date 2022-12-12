@@ -21,8 +21,11 @@ body {
 
 }
 
-.col-8 p {
-    padding: 50px;
+.col-8  {
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: justify;
+    margin: 0px;
 }
 
 /* Added border-radius to try and match the rounding off on the cards */
@@ -40,7 +43,7 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
     transition-duration: 750ms, 250ms;
     transition-timing-function: cubic-bezier(0.5, 0, 0.5, 1), linear;
