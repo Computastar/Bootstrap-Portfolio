@@ -43,6 +43,12 @@ body {
     object-fit: cover;
 }
 
+/*Added darker border to popover dialog to enhance over white background */
+.popover {
+    border-color: #333;
+}
+
+/* Align contact section to center */
 .contact {
     text-align: center;
 }
