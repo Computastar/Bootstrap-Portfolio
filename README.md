@@ -54,7 +54,7 @@ I decided to go for a much simplier layout this week, after last weeks challenge
 
 
 
-**Website Screenshot*
+**Website Screenshot**
 ![My challenge website!](/images/Bootstrap_Portfolio.jpeg "My challenge website")
 
 ## License
