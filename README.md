@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-The Bootstrap-Portfolio, like all the challenges is there to enable us to put in to practice the skills we have learnt that week and over the course so far. This week it was Bootstrap a powerful, extensible, and feature-packed frontend toolkit, utilizing a prebuilt grid system and components such as jumbtrons and navbars.#
+The Bootstrap-Portfolio, like all the challenges is there to enable us to put in to practice the skills we have learnt that week and over the course so far. This week it was Bootstrap a powerful, extensible, and feature-packed frontend toolkit, utilizing a prebuilt grid system and components such as jumbtrons and navbars.
 
 The challenge brief was to recreate our [Module-2-Challenge-Jason-Hunter](https://computastar.github.io/Module-2-Challenge-Jason-Hunter/) site from the previous week using Bootstrap components. I went overboard on the previous weeks challenge so I had already created a number of similar components. Using Bootstrap is much simplier, once you have set up the grid layout as you want, you dont really have to think too much about responsiviness, as the components are prebuilt that way.
 
@@ -9,7 +9,7 @@ The challenge brief was to recreate our [Module-2-Challenge-Jason-Hunter](https:
 Follow this link to view the website [Bootstrap-Portfolio](https://computastar.github.io/Bootstrap-Portfolio/).
 
 ## How I went about creating the site
-I decided to go for a much simplier layout this week, after last weeks challenge ended with 11.00pm submission. I actually prefer this layout more its clearer and more consise. It scales well and Ive still managed to keep in some of the features such as the scaling out of the card images on hover. As always I like to puch myself a bit, so this week I added the popovers from the Bootstrap components, these work much cleaner than my tooltips last week, it uses a bit of javascript, but its easier to decode whats happening. Adding the on hover function to the card image to show the popover was a little trickier, but a  little trial and error I got there, and that's how you learn. I wasnt sure about the skills area mentioned in the brief, but it's not mentioned in the rubric, so put it anyway. I added a favicon for the title bar, which helps the page look more professional
+I decided to go for a much simplier layout this week, after last weeks challenge ended with 11.00pm submission. I actually prefer this layout more its clearer and more consise. It scales well and I've still managed to keep in some of the features such as the scaling out of the card images on hover. As always I like to push myself a bit, so this week I added the popovers from the Bootstrap components, these work much cleaner than my tooltips last week, it uses a bit of javascript, but its easy to decode whats happening. Adding the on hover function to the card image to show the popover was a little trickier, but a little trial and error I got there, and that's how you learn. I wasnt sure about the skills area mentioned in the brief, but it's not mentioned in the rubric, so put it anyway. I added a favicon for the title bar, which helps the page look more professional
 
 * **Technical Acceptance Criteria**
 >* Using Bootstrap, recreate your portfolio site with the following items:
