@@ -8,24 +8,22 @@ body {
     height: 50px;
 }
 
+/* Set jumbotron background to white for cleaner look */
 .jumbotron {
     background-color: white;
 }
 
-.col-8 h1 {
-    text-align: justify;
-}
-
-.sectionHeading {
-    text-align: calc(100% - 100 px);
-
-}
-
-.col-8  {
+/* Padding out Its All about Me & A Particular Set of Skills */
+.aboutMe {
     padding-top: 50px;
     padding-left: 50px;
     text-align: justify;
     margin: 0px;
+}
+
+/* Align My Work geading with cards */
+.sectionHeading {
+    text-align: calc(100% - 100 px);
 }
 
 /* Added border-radius to try and match the rounding off on the cards */
@@ -34,19 +32,23 @@ body {
     border-radius: 1%;
 }
 
+/* Added margin to cardcontianer to pad out for btter look */
 .cardContainer {
     margin-top: 20px;
 }
 
+/* remove margins around card for space to scale up */
 .card {
     margin: 0 auto;
 }
 
+/* scale up effect on card on hover */
 .card:hover {
     transform: scale(1.05);
     transition: all 0.5s ease-in-out;
 }
 
+/* resize card images to same size */
 .card img {
     width: 100%;
     height: 25vw;
