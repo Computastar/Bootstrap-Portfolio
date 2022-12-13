@@ -44,9 +44,7 @@ body {
 
 .card:hover {
     transform: scale(1.05);
-    transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
-    transition-duration: 750ms, 250ms;
-    transition-timing-function: cubic-bezier(0.5, 0, 0.5, 1), linear;
+    transition: all 0.5s ease-in-out;
 }
 
 .card img {
